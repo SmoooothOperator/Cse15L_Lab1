@@ -1,5 +1,5 @@
 # The function of cd, ls, and cat
-**cd no arg**<br>
+**cd no arg** <br>
 In the home directory <br>
 cd is short for change directory, since there is no argument, it does nothing. <br>
 ![Image](imageName.png) <br>
