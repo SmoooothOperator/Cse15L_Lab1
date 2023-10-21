@@ -1,7 +1,7 @@
 # The function of cd, ls, and cat
 **cd no arg** <br>
 In the home directory <br>
-cd is short for change directory, since there is no argument, it does nothing. <br>
+cd is short for change directory, since there is no argument and we are in the home directory, it does nothing. If we are not in the home directory and we cd, we will be sent back to the home directoryh. <br>
 ![Image](cd1.png) <br>
 
 **cd path to directory** <br>
@@ -31,16 +31,17 @@ ls with an argument to file shows the file path itself, as there are no other fi
 
 **cat no argument** <br>
 In the home directory <br>
-cat with no argument shows a blank line, as cat would wait for user input. <br>
+cat with no argument shows a blank line, as cat would wait for user input. If I enter a user input, it would simply reply that user input to me. If I wanted to exit, I would Ctrl+C. <br>
 ![Image](cat1.png) <br>
 
 **cat path to directory** <br>
 In the home directory <br>
 cat will throw error, as the directory is not a file, and therefore cannot be read. <br>
-![Image](cat2.png) <br>
+![Image](cat3.png) <br>
 
 **cat path to file** <br>
 In the home directory <br>
 cat will read the file and print it in the terminal, as thats the function of cat. <br>
-![Image](cat3.png) <br>
+![Image](cat2.png) <br>
+
 
